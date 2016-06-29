@@ -9,8 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.videoplayback.MainActivity">
 
-    <TextView
+    <com.google.android.youtube.player.YouTubePlayerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/youTubePlayerView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/playButton"
+        android:layout_marginBottom="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#df1616"
+        android:textColor="#ffffff" />
+
+
+
 </RelativeLayout>
